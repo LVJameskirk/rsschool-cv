@@ -17,8 +17,8 @@ I consider my strong point to be my experience in IT as a QA Engineer for more t
 * JS
 * GIT
 * Languages:
-  * Russian - Native
-  * English - B1 Intermediate
+  + Russian - Native
+  + English - B1 Intermediate
 
 ## Work Experience
 
@@ -40,3 +40,13 @@ On Backend - API testing via Postman. PostgreSQL - for working with databases.
 * Certificate Sololearn - Web Development
 ![Sololearn](/certificate.jpg "Certificate Sololearn")
 * [RS School](https://rs.school/js/) in the “JavaScript/Front-end” program in the top ten.
+
+## Projects
+[This CV](https://github.com/LVJameskirk/rsschool-cv)
+
+## Code
+```
+function multiply(a, b){
+  return a * b;
+}
+```
