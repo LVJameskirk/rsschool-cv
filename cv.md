@@ -19,3 +19,24 @@ I consider my strong point to be my experience in IT as a QA Engineer for more t
 * Languages:
   * Russian - Native
   * English - B1 Intermediate
+
+## Work Experience
+
+**Samokat**
+*Senior QA Engineer*
+September 2023 - Now
+Backend testing in Goland
+Mobile testing (IOS, Android)
+
+**Skyeng**
+*Middle QA Engineer*
+November 2020 - August 2023
+Functional testing of new features and regression.
+On Frontend, I actively used dev tools and mocks.
+On Backend - API testing via Postman. PostgreSQL - for working with databases.
+
+## Education
+* [Hexlet](https://code-basics.com/ru). Courses on the basics of HTML, CSS and JS on the platform
+* Certificate Sololearn - Web Development
+![Sololearn](/certificate.jpg "Certificate Sololearn")
+* [RS School](https://rs.school/js/) in the “JavaScript/Front-end” program in the top ten.
