@@ -1,0 +1,60 @@
+/* Общие стили */
+body{
+  font-size: 1.1em;
+}
+
+html,
+body, 
+h1 {
+  margin:0;
+}
+
+p {
+  margin-top: 0px;
+}
+
+h2 {
+  color: rgb(45 107 220);
+  padding: 0.5em;
+  border: solid 1px rgb(45 107 220);
+}
+
+ul {
+  padding-inline-start: 0px;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.left-side section {
+  padding: 0px 15px;
+}
+
+.right-side section {
+  padding-left: 20px;
+}
+
+.wrapper {
+  min-width: 940px;
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+}
+
+.left-side {
+  color: rgb(245, 245, 245);
+}
+
+.right-side {
+  background-color: rgb(245, 245, 245);
+}
+
+.right-side h2 {
+  background-color: rgb(199, 199, 199);
+}
