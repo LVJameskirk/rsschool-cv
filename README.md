@@ -1,1 +1,0 @@
-https://LVJameskirk.github.io/rsschool-cv/
