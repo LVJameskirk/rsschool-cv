@@ -14,19 +14,22 @@ I consider my strong point to be my experience in IT as a QA Engineer for more t
 
 ## Skills 
 * HTML&CSS
-* JS
-* GIT
+* Sass
+* Basics JS
+* GIT & Command line
+* SQL
 * Languages:
   + Russian - Native
   + English - B1 Intermediate
 
 ## Work Experience
 
-**Samokat**
+**Sber**
 *Senior QA Engineer*
-September 2023 - Now
-Backend testing in Goland
-Mobile testing (IOS, Android)
+March 2024 - Now
+Web and Backend Testing
+Establishing testing processes in a team
+Scrum master
 
 **Skyeng**
 *Middle QA Engineer*
@@ -39,14 +42,22 @@ On Backend - API testing via Postman. PostgreSQL - for working with databases.
 * [Hexlet](https://code-basics.com/ru). Courses on the basics of HTML, CSS and JS on the platform
 * Certificate Sololearn - Web Development
 ![Sololearn](/certificate.jpg "Certificate Sololearn")
-* [RS School](https://rs.school/js/) in the “JavaScript/Front-end” program in the top ten.
+* [RS School](https://rs.school/js/) in the “JavaScript/Front-end”
 
 ## Projects
 [This CV](https://github.com/LVJameskirk/rsschool-cv)
+[Personal project about high points. Using Sass and Webpack technologies](https://allhighpoints.ru/)
 
 ## Code
 ```
-function multiply(a, b){
-  return a * b;
+const addTagsClickHandler = () => {
+    document.querySelector('.region-tabs__list').addEventListener('click', (e) => {
+        if(e.target.classList.contains('region-tabs__item')){
+            let clickedTag = e.target;
+            removeSelectedTags();
+            selectClickedTag(clickedTag);
+            showGrid(clickedTag);
+        }
+    })
 }
 ```
