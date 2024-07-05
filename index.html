@@ -21,6 +21,7 @@
           </ul>
       </nav>
     </header>
+
     <main>
       <div class="left-side">
         <img class="myphoto-img" src="img/MyPhoto.jpg" alt="My photo">
@@ -56,7 +57,88 @@
                 </li>
             </ul>
         </section>
-    </div>
+      </div>
+      
+      <div class="right-side">
+        <section class="section-i-am">
+            <h1>Vitaly Laletin</h1>
+            <p class="specialization">Front-End Developer</p>
+        </section>
+
+        <section class="section-about-me" id="about-me">
+            <h2>About Me</h2>               
+            <p>My goal is to become a Full-Stack developer, master all the 
+                necessary technologies for writing the Frontend and Backend 
+                parts of a WEB application.
+                I consider my strong point to be my experience in IT as a 
+                QA Engineer for more than 5 years. This allows me to 
+                have a good understanding of the software development 
+                process and the role of each participant. Also, in the process 
+                of work, I have already mastered many technologies that are used 
+                in practice. Read more about them in the section - Skills.
+            </p>
+        </section>
+
+        <section class="section-work" id="work">
+            <h2>Work Experience</h2>   
+            <h3>Sber</h3>
+            <p><em>Senior QA Engineer</em></p>
+            <p>March 2024 - Now</p>
+            <p>Web and Backend Testing.
+              Establishing testing processes in a team.
+              Scrum master.</p>
+
+            <h3 class="work-skyeng">Skyeng</h3>
+            <p><em>Middle QA Engineer</em></p>
+            <p>November 2020 - August 2023</p>
+            <p>Functional testing of new features and regression.
+                On Frontent, I actively used dev tools and mocks.
+                On Backend - API testing via Postman. PostgreSQL - 
+                for working with databases.
+            </p>
+        </section>
+
+        <section class="section-education" id="education">
+            <h2>Education</h2>
+            <ul class="education-list">
+                <li class="education-item">
+                    <a href="https://ru.hexlet.io/u/lvjameskirk" target="_blank">Hexlet</a>
+                    Courses on the basics of HTML/CSS/JS, Sass and Git on the platform
+                </li>
+                <li class="education-item">
+                    <a href="https://rs.school/js/" target="_blank">RS School</a>
+                    In 2023-2024, almost completed the stage 1 of the “JavaScript/Front-end” program
+                </li>
+                <li  class="education-item">
+                    <img class="sololearn-img" src="/img/certificate.jpg" alt="Certificate Sololearn - Web Development">
+                </li>
+            </ul>
+        </section>
+
+        <section class="section-projects" id="projects">
+            <h2>My Projects</h2>
+            <p><a href="https://github.com/LVJameskirk/rsschool-cv" target="_blank">This CV</a></p>
+            <p><a href="https://github.com/LVJameskirk/rsschool-cv" target="_blank">Allhighpoints.</a> Personal project about high points. Using Sass and Webpack technologies</p>
+         </section>
+
+        <section class="section-code" id="code">
+            <h2>Code Example</h2>
+            <pre>
+                <code>
+const addTagsClickHandler = () => {
+  document.querySelector('.region-tabs__list').addEventListener('click', (e) => {
+      if(e.target.classList.contains('region-tabs__item')){
+          let clickedTag = e.target;
+          removeSelectedTags();
+          selectClickedTag(clickedTag);
+          showGrid(clickedTag);
+      }
+  })
+}
+                </code>
+            </pre>
+        </section>
+      </div>
     </main>
   </div>
 </body>
